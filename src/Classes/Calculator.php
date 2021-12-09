@@ -17,6 +17,10 @@ class Calculator{
         $this->result+=$number1-$number2;
         return $this;
     }
+    public function multiply($number1,$number2){
+        $this->result+=$number1*$number2;
+        return $this;
+    }
     public function get(){
         return $this->result;
     }
