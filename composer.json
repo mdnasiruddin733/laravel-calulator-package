@@ -1,0 +1,29 @@
+{
+    "name": "webpane/nestedset",
+    "description": "\"This is a laravel package that is used to make laravel recursive model",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Webpane\\Nestedset\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nasir",
+            "email": "nasir.developer.bd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webpane\\Nestedset\\Providers\\NestedsetServiceProvider"
+            ],
+            "aliases": {
+                "Calculator": "Webpane\\Nestedset\\Facades\\Calculator"
+            }
+        }
+    }
+}
