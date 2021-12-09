@@ -22,7 +22,7 @@ class Calculator{
         return $this;
     }
     public function devide($num1,$num2){
-         $this->result+=$number1/$number2;
+         $this->result+=$num1/$num2;
          return $this;
     }
     public function get(){
